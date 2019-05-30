@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../css/menu.scss';
+import '../css/menu.css';
 import logo from '../images/logo.png';
 import menuData from './menu'
 
