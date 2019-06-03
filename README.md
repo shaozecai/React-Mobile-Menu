@@ -31,4 +31,4 @@ npm start
 - Web site - https://shaozecai.com
 
 ## Version
-- v1.0.0
+- v1.0.1 支持三级菜单

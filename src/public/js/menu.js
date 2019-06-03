@@ -5,7 +5,13 @@ const menu = [
     {id:'F001',text:'首页',url:'/home'},
     {id:'F002',text:'系统',url:'#',
       children:[
-        {id:'F2-001',text:'子菜单1',url:'/ss'},
+        {id:'F2-001',text:'子菜单1',url:'#',
+          children:[
+            {id:'F2-1-001',text:'三级菜单1',url:'/ss'},
+            {id:'F2-1-002',text:'三级菜单2',url:'/ss'},
+            {id:'F2-1-003',text:'三级菜单3',url:'/ss'}
+          ]
+        },
         {id:'F2-002',text:'子菜单2',url:'/ss'},
         {id:'F2-003',text:'子菜单3',url:'/ss'},
         {id:'F2-004',text:'子菜单4',url:'/ss'}
@@ -15,7 +21,15 @@ const menu = [
       children:[
         {id:'F3-001',text:'子菜单1',url:'/ss'},
         {id:'F3-002',text:'子菜单2',url:'/ss'},
-        {id:'F3-003',text:'子菜单3',url:'/ss'},
+        {id:'F3-003',text:'子菜单3',url:'#',
+          children:[
+            {id:'F3-3-001',text:'三级菜单1',url:'/ss'},
+            {id:'F3-3-002',text:'三级菜单2',url:'/ss'},
+            {id:'F3-3-003',text:'三级菜单3',url:'/ss'},
+            {id:'F3-3-004',text:'三级菜单4',url:'/ss'},
+            {id:'F3-3-005',text:'三级菜单5',url:'/ss'}
+          ]
+        },
         {id:'F3-004',text:'子菜单4',url:'/ss'},
         {id:'F3-005',text:'子菜单5',url:'/ss'},
         {id:'F3-006',text:'子菜单6',url:'/ss'},
